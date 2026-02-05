@@ -1,0 +1,33 @@
+# Habit-free-OC_Analysis_APJCP
+
+## Overview
+This repository contains bioinformatics workflows and scripts developed for the integrative analysis of ovarian cancer (OC). The project focuses on molecular subtyping, RNA sequencing, and somatic variant calling, with an emphasis on reproducibility and security. The analyses are designed to support translational research and publication in the *Asian Pacific Journal of Cancer Prevention (APJCP)*.
+
+## Objectives
+- Perform **molecular subtyping** of ovarian cancer samples using transcriptomic data.
+- Conduct **RNA-seq analysis** for differential expression and pathway enrichment.
+- Implement **somatic variant calling pipelines** (Mutect2) for mutation profiling.
+- Integrate results into multi-omic frameworks for biomarker discovery.
+- Ensure **data security and compliance** through documented practices.
+
+## Repository Structure
+- **Molecular_subtype.R**  
+  Script for molecular subtyping based on gene expression profiles.
+  
+- **Rnaseq.R**  
+  Workflow for RNA sequencing analysis, including preprocessing, normalization, and differential expression.
+  
+- **Somatic Variant Calling Pipeline (Mutect2)**  
+  End-to-end pipeline for somatic mutation detection using GATK Mutect2.
+
+  
+- **README.md**  
+  Project overview and usage instructions.
+  
+- **SECURITY.md**  
+  Guidelines for secure data handling and compliance.
+
+## Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/Habit-free-OC_Analysis_APJCP.git
