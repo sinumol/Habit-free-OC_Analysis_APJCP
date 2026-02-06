@@ -12,12 +12,25 @@ Codes used for the manuscript titled "Genomic landscape of oral squamous cell ca
 - Somatic variant calling (GATK Mutect2, Tumor only with PoN)
 - Variant annotation (ANNOVAR )
 - Downstream analyses (TMB, COSMIC signatures, Survival analysis)
+### mutect2_somatic_pipeline/
+├── README.md
+├── config/
+│   └── params.sh
+├── scripts/
+│   └── mutect2_somatic.sh
+├── resources/
+│   ├── pon.vcf.gz
+│   └── germline_resource.vcf.gz
+└──bash/
+    └── run.sh
 
 ## RNA-seq Analysis Pipeline 
 
 - Normalization and differential expression (DESeq2)
 - Functional enrichment (GO, GSEA, pathway analysis)
 - Visualization (PCA, heatmaps, volcano plots)
+
+
 
 ## Repository Structure
 - **Molecular_subtype.R**  
@@ -34,6 +47,9 @@ Codes used for the manuscript titled "Genomic landscape of oral squamous cell ca
   
 - **SECURITY.md**  
   Guidelines for secure data handling and compliance.
+
+
+
 
 ## Getting Started
 1. Clone the repository:
