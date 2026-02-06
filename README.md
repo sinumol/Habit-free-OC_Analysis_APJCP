@@ -1,10 +1,13 @@
 # Habit-free-OC_Analysis_APJCP
+This repository contains analysis pipelines developed as part of my PhD research focused on habit-free oral squamous cell carcinoma.
 Codes used for the manuscript titled "Genomic landscape of oral squamous cell carcinoma in never smokers and never drinkers" for Asian Pacific Journal of Cancer Prevention, 2026, is deposited here
 ##TCGA processed dataset and NCBI RAW datset was used for the analysis.
+
 ## Objectives
 - Perform **molecular subtyping** of oral cancer samples using transcriptomic data.
 - Conduct **RNA-seq analysis** for differential expression and pathway enrichment.
 - somatic variant calling pipelines** (Mutect2) for mutation profiling.
+
 
 ## WES data Analysis steps for the replication study
 - Quality control (FastQC)
@@ -39,6 +42,7 @@ For non-FFPE samples, orientation bias correction is skipped.
 - Bash
 - Reference genome (hg38/hg19)
 - Panel of Normals VCF
+- Nextflow
 
 ## RNA-seq Analysis Pipeline 
 
