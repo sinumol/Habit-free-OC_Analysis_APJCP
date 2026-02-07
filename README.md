@@ -51,7 +51,7 @@ For non-FFPE samples, orientation bias correction is skipped.
 
 
 ## Repository Structure
-- **Molecular_subtype.R**  
+- **OSCC_subtype.R**  
   Script for molecular subtyping based on gene expression profiles.
   
 - **Rnaseq.R**  
